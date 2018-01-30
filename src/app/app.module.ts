@@ -5,6 +5,7 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppMaterialModule } from './material.module';
+import { FooterModule } from './shared/footer/footer';
 import { NavBarModule } from './shared/navbar';
 import { ROUTES } from './routes';
 
@@ -16,6 +17,7 @@ import { ROUTES } from './routes';
     BrowserModule,
     BrowserAnimationsModule,
     AppMaterialModule,
+    FooterModule,
     NavBarModule,
     RouterModule.forRoot(ROUTES),
   ],
