@@ -2,6 +2,10 @@
 
 @import './app/shared/navbar/navbar-theme';
 @import './app/shared/footer/footer-theme';
+@import './styles/api-theme';
+@import './styles/markdown-theme';
+@import './styles/svg-theme';
+@import './styles/tables-theme';
 
 // Styles for the app that are based on the current theme.
 @mixin material-app-theme($theme) {

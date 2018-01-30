@@ -1,0 +1,69 @@
+// Styles for API docs generated via dgeni from material2 source JsDocs.
+
+// Top header, e.g., "API documentation for dialog".
+.api-h2 {
+  font-size: 30px;
+}
+
+// Section header, e.g. "Services" or "Directives"
+.api-h3 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 45px;
+}
+
+.api-h4 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.api-class-description {
+  font-size: 12px;
+}
+.api-property-name {
+  margin: 0;
+}
+
+.api-method-name-row,
+.api-method-parameter-row,
+.api-properties-name-cell {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 600;
+}
+
+.api-properties-name-cell,
+.api-method-parameter-row {
+  font-size: 14px;
+}
+
+.api-method-parameter-type {
+  font-size: 12px;
+}
+
+.api-class-name,
+.api-module-import {
+  display: inline;
+}
+
+.api-method-name-cell {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.api-method-parameters-header-cell,
+.api-method-returns-header-cell {
+  font-size: 14px;
+}
+
+.api-input-marker,
+.api-output-marker {
+  // Size corresponding to "caption"-style text in the spec.
+  font-size: 12px;
+}
+
+.api-module-import,
+.api-class-selector-name,
+.api-class-export-name {
+  font-family: 'Roboto Mono', monospace;
+  padding: 3px;
+}
