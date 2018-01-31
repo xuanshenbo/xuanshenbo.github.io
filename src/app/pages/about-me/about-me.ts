@@ -5,11 +5,11 @@ import { RouterModule } from '@angular/router';
 import { ComponentPageTitle } from '../page-title/page-title';
 
 @Component({
-  selector: 'app-homepage',
-  templateUrl: './homepage.html',
-  styleUrls: ['./homepage.scss']
+  selector: 'app-about-me',
+  templateUrl: './about-me.html',
+  styleUrls: ['./about-me.scss']
 })
-export class Homepage implements OnInit {
+export class AboutMe implements OnInit {
   constructor(public _componentPageTitle: ComponentPageTitle) {}
 
   ngOnInit(): void {
@@ -18,8 +18,8 @@ export class Homepage implements OnInit {
 }
 
 @NgModule({
-  imports: [ MatButtonModule, FooterModule, RouterModule],
-  exports: [Homepage],
-  declarations: [Homepage],
+  imports: [MatButtonModule, FooterModule, RouterModule],
+  exports: [AboutMe],
+  declarations: [AboutMe],
 })
-export class HomepageModule {}
+export class AboutMeModule {}

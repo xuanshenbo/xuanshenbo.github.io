@@ -1,4 +1,4 @@
-const ABOUT_ME = 'about me';
+const ABOUT_ME = 'aboutMe';
 const EXPERIENCES = 'experiences';
 const CONTACT = 'contact';
 const BLOG = 'blog';

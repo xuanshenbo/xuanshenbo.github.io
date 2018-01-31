@@ -1,7 +1,8 @@
 import { Routes } from '@angular/router';
-import { Homepage } from './pages/homepage/homepage';
+import { AboutMe } from './pages/about-me/about-me';
 
 export const ROUTES: Routes = [
-  {path: '', component: Homepage, pathMatch: 'full', data: {}},
+  {path: '', redirectTo: '/aboutMe', pathMatch: 'full'},
+  {path: 'aboutMe', component: AboutMe},
   {path: '**', redirectTo: ''},
 ];
