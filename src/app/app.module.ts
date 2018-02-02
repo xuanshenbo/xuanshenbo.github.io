@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AboutMeModule } from './pages/about-me/about-me';
 import { ComponentPageTitle } from './pages/page-title/page-title';
+import { ExperiencesModule } from './pages/experiences/experiences';
 import { AppMaterialModule } from './material.module';
 import { FooterModule } from './shared/footer/footer';
 import { NavBarModule } from './shared/navbar';
@@ -20,6 +21,7 @@ import { ROUTES } from './routes';
     BrowserAnimationsModule,
     AboutMeModule,
     AppMaterialModule,
+    ExperiencesModule,
     FooterModule,
     NavBarModule,
     RouterModule.forRoot(ROUTES),
